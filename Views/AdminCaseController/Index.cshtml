@@ -1,0 +1,21 @@
+﻿@model IEnumerable<Case.Web.Portal.Models.Cmcase>
+
+
+    <table class="table">
+    <thead>
+        <tr>
+            <th>
+                ID
+            </th>
+        </tr>
+      <thead>
+   <tbody>
+@foreach (var item in Model) {
+        <tr>
+             <td>
+                @Html.DisplayFor(modelItem => item.CMcustomerId);
+            </td>
+        </tr>
+
+
+}

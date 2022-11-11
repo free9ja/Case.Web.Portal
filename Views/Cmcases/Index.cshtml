@@ -1,0 +1,106 @@
+﻿@model IEnumerable<Case.Web.Portal.Models.Cmcase>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<p>
+
+</p>
+
+<section id="cases" class="team">
+      <div class="container" data-aos="fade-up">
+
+
+           <div class="section-header">
+          <h2>All Cases</h2>
+          <p>View all customer cases. here using the table below. </p>
+        </div>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<div class="row gy-5 pricing">
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedAt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ResolvedAt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            @*<th>
+                @Html.DisplayNameFor(model => model.CaseTypeId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerId)
+            </th>*@
+           @* <th>
+                @Html.DisplayNameFor(model => model.State)
+            </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.CMcaseType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CMcustomer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerCare)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedAt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ResolvedAt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+           @* <td>
+                @Html.DisplayFor(modelItem => item.CaseTypeId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerId)
+            </td>*@
+            @*<td>
+                @Html.DisplayFor(modelItem => item.State)
+            </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.CMcaseType.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CMcustomer.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerCare!.Email)
+            </td>
+            <td>
+                <a class="buy-btn" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
+                <a asp-action="Assign" asp-route-id="@item.Id">Assign Case</a>| 
+               
+               
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>
+</section>
+</div>

@@ -1,0 +1,64 @@
+﻿@model Case.Web.Portal.Models.Cmcase
+
+@{
+    ViewData["Title"] = "doAssign";
+}
+
+<h1>doAssign</h1>
+
+<div>
+    <h4>Assigned Case</h4>
+    <hr />
+    <b>Assigned to: @ViewData["CustomerCareName"] </b>
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CreatedAt)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CreatedAt)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ResolvedAt)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ResolvedAt)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CaseTypeId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CaseTypeId)
+        </dd>
+        <dt class = "col-sm-2">
+            Customer
+        </dt>
+        <dd class = "col-sm-10">
+            @ViewData["Customer"]
+        </dd>
+      
+        <dt class = "col-sm-2">
+            Case Type
+        </dt>
+        <dd class = "col-sm-10">
+            @ViewData["CaseType"]
+        </dd>
+       
+       
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
