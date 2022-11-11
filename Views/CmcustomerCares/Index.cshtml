@@ -3,8 +3,20 @@
 @{
     ViewData["Title"] = "Index";
 }
+<p>
 
-<h1>Index</h1>
+</p>
+
+<div class="cta container">
+
+<section id="customercare" class="team">
+      <div class="container" data-aos="fade-up">
+
+
+           <div class="section-header">
+          <h2>All Customers</h2>
+          <p>View all customers here using the table below. </p>
+        </div>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -55,11 +67,14 @@
                 @Html.DisplayFor(modelItem => item.PhoneNumber)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a class="buy-btn" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a class="buy-btn" asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a class="buy-btn" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+</div>
+</section>
+</div>

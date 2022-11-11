@@ -4,11 +4,25 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<p>
+
+</p>
+
+<div class="cta container">
+
+<section id="customers" class="team">
+      <div class="container" data-aos="fade-up">
+
+
+           <div class="section-header">
+          <h2>All Customers</h2>
+          <p>View all customers here using the table below. </p>
+        </div>
 
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+<div class="row gy-5 pricing">
 <table class="table">
     <thead>
         <tr>
@@ -21,9 +35,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Email)
             </th>
-            <th>
+            @*<th>
                 @Html.DisplayNameFor(model => model.CreatedAt)
-            </th>
+            </th>*@
             <th>
                 @Html.DisplayNameFor(model => model.UpdatedAt)
             </th>
@@ -45,9 +59,9 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Email)
             </td>
-            <td>
+           @* <td>
                 @Html.DisplayFor(modelItem => item.CreatedAt)
-            </td>
+            </td>*@
             <td>
                 @Html.DisplayFor(modelItem => item.UpdatedAt)
             </td>
@@ -55,12 +69,12 @@
                 @Html.DisplayFor(modelItem => item.PhoneNumber)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
-                <a href="UserCases?UserId=@item.Id" >Cases</a> |
+                <a class="buy-btn" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a class="buy-btn" asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a class="buy-btn" asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
+                <a class="buy-btn" href="UserCases?UserId=@item.Id" >Cases</a> |
 
-                 <a href="@Url.Action("Create", "Cmcases", new { userId = item.Id })">
+                 <a class="buy-btn" href="@Url.Action("Create", "Cmcases", new { userId = item.Id })">
                  <span>Create Case</span>
                 </a>
                  
@@ -69,3 +83,6 @@
 }
     </tbody>
 </table>
+</div>
+</section>
+</div>

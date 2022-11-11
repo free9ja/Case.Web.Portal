@@ -7,13 +7,15 @@
 
 </p>
 
+<div class="cta container">
+
 <section id="cases" class="team">
       <div class="container" data-aos="fade-up">
 
 
            <div class="section-header">
           <h2>All Cases</h2>
-          <p>View all customer cases. here using the table below. </p>
+          <p>View all customer cases here using the table below. </p>
         </div>
 
 <p>
@@ -26,9 +28,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Description)
             </th>
-            <th>
+          @*  <th>
                 @Html.DisplayNameFor(model => model.CreatedAt)
-            </th>
+            </th>*@
             <th>
                 @Html.DisplayNameFor(model => model.ResolvedAt)
             </th>
@@ -62,9 +64,9 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Description)
             </td>
-            <td>
+           @* <td>
                 @Html.DisplayFor(modelItem => item.CreatedAt)
-            </td>
+            </td>*@
             <td>
                 @Html.DisplayFor(modelItem => item.ResolvedAt)
             </td>
@@ -91,9 +93,9 @@
             </td>
             <td>
                 <a class="buy-btn" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
-                <a asp-action="Assign" asp-route-id="@item.Id">Assign Case</a>| 
+                <a  class="buy-btn" asp-action="Details" asp-route-id="@item.Id">View</a> |
+                <a class="buy-btn" asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
+                <a class="buy-btn" asp-action="Assign" asp-route-id="@item.Id">Assign</a> 
                
                
             </td>
@@ -101,6 +103,7 @@
 }
     </tbody>
 </table>
+</div>
 </div>
 </section>
 </div>
