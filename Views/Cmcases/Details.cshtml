@@ -3,11 +3,20 @@
 @{
     ViewData["Title"] = "Details";
 }
+<p></p>
 
-<h1>Details</h1>
+<div class="cta container">
+
+<section id="customercare" class="team">
+      <div class="container" data-aos="fade-up">
+
+
+           <div class="section-header">
+          <h2>Case</h2>
+        </div>
 
 <div>
-    <h4>Cmcase</h4>
+  
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -75,4 +84,8 @@
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
     <a asp-action="Index">Back to List</a>
+</div>
+</div>
+</div>
+</section>
 </div>

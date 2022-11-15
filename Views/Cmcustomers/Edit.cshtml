@@ -4,12 +4,20 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<p></p>
 
-<h4>Cmcustomer</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
+<div class="cta container">
+
+<section id="customercare" class="team">
+      <div class="container" data-aos="fade-up">
+
+
+           <div class="section-header">
+          <h2>Edit Case</h2>
+          <p>View all customers here using the table below. </p>
+        </div>
+<div class=" contact">
+    <div class="case-form col-lg-12">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
@@ -47,11 +55,15 @@
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
-    </div>
+ </div>
 </div>
 
 <div>
     <a asp-action="Index">Back to List</a>
+</div>
+</div>
+</div>
+</section>
 </div>
 
 @section Scripts {

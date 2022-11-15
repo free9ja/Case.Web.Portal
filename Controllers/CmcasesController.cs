@@ -115,7 +115,8 @@ namespace Case.Web.Portal.Controllers
             }
 
             var cmcase = await _context.Cmcases.FindAsync(id);
-            var caseType = await _context.CmcaseTypes.FindAsync(cmcase.CaseTypeId);
+            var caseType = await _context.CmcaseTypes.FindAsync(cmcase.CMcaseTypeId);
+            //var caseType = await _context.CmcaseTypes.FindAsync(cmcase.CaseTypeId);
             var c = new CreateCase();
             if (cmcase == null)
             {
@@ -137,7 +138,8 @@ namespace Case.Web.Portal.Controllers
             c.ResolvedAt = cmcase.ResolvedAt;
            // c.CustomerCare= == null ? null : await _context.CmcustomerCares.FindAsync(cmcase.CustomerCare!.Id);
             c.Description = cmcase.Description;
-            c.CaseTypeId = cmcase.CaseTypeId;
+            c.CaseTypeId = cmcase.CMcaseTypeId;
+            //c.CaseTypeId = cmcase.CaseTypeId;
 
             c.CustomerEmail = c.CMcustomer!.Email;
             c.CaseTypeName = caseType.Name;
@@ -179,6 +181,7 @@ namespace Case.Web.Portal.Controllers
                     c.State = 0;
                     c.CMcaseType = t!;
                     c.CMcaseTypeId = cmcase.CaseTypeId;
+                    c.CaseTypeId = cmcase.CaseTypeId;
                     c.Description = cmcase.Description;
                    // c.
 

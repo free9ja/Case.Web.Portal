@@ -1,0 +1,192 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Case.Web.Portal
+build_property.RootNamespace = Case.Web.Portal
+build_property.ProjectDir = C:\Users\seyifalaiye\source\repos\Case.Web.Portal\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\seyifalaiye\source\repos\Case.Web.Portal
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/AdminCaseController/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5DYXNlQ29udHJvbGxlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/AdminCase/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5DYXNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/Cmcases/Assign.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21jYXNlc1xBc3NpZ24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/Cmcases/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21jYXNlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/Cmcases/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21jYXNlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/Cmcases/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21jYXNlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/Cmcases/doAssign.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21jYXNlc1xkb0Fzc2lnbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/Cmcases/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21jYXNlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/Cmcases/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21jYXNlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/CmcustomerCares/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21jdXN0b21lckNhcmVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/CmcustomerCares/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21jdXN0b21lckNhcmVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/CmcustomerCares/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21jdXN0b21lckNhcmVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/CmcustomerCares/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21jdXN0b21lckNhcmVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/CmcustomerCares/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21jdXN0b21lckNhcmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/Cmcustomers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21jdXN0b21lcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/Cmcustomers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21jdXN0b21lcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/Cmcustomers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21jdXN0b21lcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/Cmcustomers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21jdXN0b21lcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/Cmcustomers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21jdXN0b21lcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/UserCases/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckNhc2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/UserCases/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckNhc2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/UserCases/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckNhc2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/UserCases/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckNhc2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/UserCases/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckNhc2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/seyifalaiye/source/repos/Case.Web.Portal/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-fcsli2lbcc
