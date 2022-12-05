@@ -4,11 +4,23 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+
+<p></p>
+
+<div class="cta container">
+
+<section id="customercare" class="team">
+      <div class="container" data-aos="fade-up">
+
+
+           <div class="section-header">
+          <h2>Case</h2>
+        </div>
 
 <div>
-    <h4>CmcustomerCare</h4>
+  
     <hr />
+
     <dl class="row">
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.FirstName)
@@ -51,4 +63,8 @@
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
     <a asp-action="Index">Back to List</a>
+</div>
+</div>
+</div>
+</section>
 </div>

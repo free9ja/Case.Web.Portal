@@ -4,11 +4,25 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<p>
+
+</p>
+
+<div class="cta container">
+
+<section id="customers" class="team">
+      <div class="container" data-aos="fade-up">
+
+
+           <div class="section-header">
+          <h2>Cases for customer , @Model!.FirstOrDefault()!.CMcustomer.FirstName @Model!.FirstOrDefault()!.CMcustomer.LastName </h2>
+          <p>View all customer cases using the table below. </p>
+        </div>
 
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+<div class="row gy-5 pricing">
 <table class="table">
     <thead>
         <tr>
@@ -87,3 +101,6 @@
 }
     </tbody>
 </table>
+</div>
+</section>
+</div>

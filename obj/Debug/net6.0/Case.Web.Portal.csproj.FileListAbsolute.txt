@@ -275,3 +275,4 @@ C:\Users\seyifalaiye\source\repos\Case.Web.Portal\bin\Debug\net6.0\Microsoft.Ent
 C:\Users\seyifalaiye\source\repos\Case.Web.Portal\bin\Debug\net6.0\Npgsql.dll
 C:\Users\seyifalaiye\source\repos\Case.Web.Portal\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\seyifalaiye\source\repos\Case.Web.Portal\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+C:\Users\seyifalaiye\source\repos\Case.Web.Portal\bin\Debug\net6.0\aws-beanstalk-tools-defaults.json
